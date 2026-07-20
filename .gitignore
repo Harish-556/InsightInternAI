@@ -1,0 +1,23 @@
+# Virtual environment - never push this (huge folder)
+venv/
+
+# API key - never push this (security risk)
+.env
+
+# Streamlit secrets - never push this (contains API key)
+.streamlit/secrets.toml
+
+# Test files - not needed on GitHub
+test_imports.py
+test_key.py
+
+# Python cache files - auto-generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded files - user data, not needed
+uploaded_docs/
+
+# Version file
+0.2.0
