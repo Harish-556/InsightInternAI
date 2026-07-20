@@ -11,10 +11,10 @@ from utils.abstract import generate_abstract
 from utils.interview import generate_interview_questions
 from utils.helper import save_uploaded_file, cleanup_temp_file
 from utils.flashcard import generate_flashcards
-from utils.readme import generate_readme
-from utils.skillgap import analyze_skill_gap
-from utils.compare import compare_documents
-import plotly.figure_factory as ff
+from utils.readme_gen import generate_readme
+from utils.skill_gap import analyze_skill_gap
+from utils.comparator import compare_documents
+#import plotly.figure_factory as ff
 from utils.timeline import extract_timeline
 from utils.translator import LANGUAGES, translate_text
  
